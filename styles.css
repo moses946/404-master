@@ -54,6 +54,8 @@ header{
     background-color: #60588E;
     padding: 25px;
     cursor: pointer;
+}
+.text-content button:focus:hover:active:focus-within:focus-visible:visited{
     outline: none;
     -webkit-outline: none;
     -o-outline: none;
