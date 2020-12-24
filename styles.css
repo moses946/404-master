@@ -54,6 +54,10 @@ header{
     background-color: #60588E;
     padding: 25px;
     cursor: pointer;
+    outline: none;
+    -webkit-outline: none;
+    -o-outline: none;
+    -moz-outline: none;
 }
 footer{
     font-family: 'Montserrat', sans-serif;
