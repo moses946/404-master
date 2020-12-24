@@ -6,7 +6,7 @@
     color: #333333;
     overflow-x: hidden;
 }
-.header{
+header{
     font-family: 'Inconsolata', monospace;
     font-size: 2.0em;
     margin-left: 7%;
@@ -45,23 +45,60 @@
     padding: 20px;
     color: #ffffff;
     font-size: 0.9em;
-    background: #333333;
+    background: #696464;
     border: none;
     font-weight: 300;
+    transition: all 0.8s ease;
+}
+.text-content button:hover{
+    background-color: #60588E;
+    padding: 25px;
+    cursor: pointer;
 }
 footer{
     font-family: 'Montserrat', sans-serif;
-    position: relative;
-    bottom: 0%;
+    position: static;
+    bottom: 0;
     padding: 45px 0px 35px 0px;
     text-align: center;
     font-size: 0.9em;
+    font-weight: 500;
 }
-
-@media screen and(min-width:425px){
+@media (min-width:430px){
     .main-flex{
         display: grid;
-        grid-template-columns: repeat(1fr ,1fr);
-        gap: 25px;
+        grid-template-columns: repeat(2, minmax(220px, 1fr));
+        gap: 20px;
+        padding: 15px;
+        height: 500px;
+    }
+    .main-flex img{
+        margin-left: 0;
+    }
+    .main-flex h2{
+        padding-top: 50px;
+        padding-bottom: 25px;
+        font-size: 2.5em;
+    }
+    .main-flex p{
+        padding-bottom: 50px;
+        font-size: 1.4em;
+        line-height: 35px;
+    }
+    .main-flex button{
+        font-size: 1em;
+    }
+    footer{
+        font-size: 1.2em;
+    }
+}
+@media (min-width:780px){
+    .main-flex img{
+        margin-left: 13%;
+    }
+}
+@media (min-width:1030px){
+    .main-flex img{
+        margin-left: 17%;
     }
 }
