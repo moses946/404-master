@@ -55,7 +55,7 @@ header{
     padding: 25px;
     cursor: pointer;
 }
-.text-content button:focus:hover:active:focus-within:focus-visible:visited{
+.text-content button:focus{
     outline: none;
     -webkit-outline: none;
     -o-outline: none;
