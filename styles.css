@@ -70,7 +70,7 @@ footer{
     font-size: 0.9em;
     font-weight: 500;
 }
-@media (min-width:430px){
+@media (min-width:730px){
     .main-flex{
         display: grid;
         grid-template-columns: repeat(2, minmax(220px, 1fr));
@@ -82,7 +82,7 @@ footer{
         margin-left: 0;
     }
     .main-flex h2{
-        padding-top: 50px;
+        padding-top: 20px;
         padding-bottom: 25px;
         font-size: 2.5em;
     }
@@ -100,7 +100,7 @@ footer{
 }
 @media (min-width:780px){
     .main-flex img{
-        margin-left: 13%;
+        margin-left: 8%;
     }
 }
 @media (min-width:1030px){
